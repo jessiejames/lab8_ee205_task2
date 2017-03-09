@@ -304,6 +304,10 @@ int main() {
     int count = 0;
     cout << "RPC.cpp: \n";
     cout << "#######    TASK 2 STATUS:   ########\n";
+    cout << "---LIST OF BUGS FOUND: \n";
+    cout << "Compile errors: \n";
+    cout << "end curly for the main, Token constructor with char & string argument, must compile in c++11\n";
+    cout << "Algorithm errors: \n";
     cout << "Right now it's basically storing the 1st element into result,\n";
     cout << "then using the next 2 of the first prompt and executing the function with\n";
     cout << "the 1st element of the next prompt\n";
@@ -316,6 +320,7 @@ int main() {
     cout << "calculate, expression, term, primary, token steam: get\n";
     cout << "I tried playing with the number of times it 'gets' and 'ungets' but I couldn't fix it\n";
     cout << "**uncomment line 10 (#define DEBUG) to see debug statements\n\n";
+    
     try {
     
 

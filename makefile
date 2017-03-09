@@ -1,8 +1,11 @@
 
-global: RPC
+global: task1 task2
 
-RPC: RPC.cpp
-	g++ RPC.cpp -o RPC --std=c++11
+task1: task1.cpp
+	g++ task1.cpp -o task1 --std=c++11
+
+task2: RPC.cpp
+	g++ RPC.cpp -o task2 --std=c++11
 
 clean:
-	rm RPC
+	rm task1 task2
